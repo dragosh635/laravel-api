@@ -42,7 +42,7 @@ return [
         ],
 
         'api' => [
-            'driver' => 'token',
+            'driver' => 'passport', // use passport to login with oAuth 2
             'provider' => 'users',
             'hash' => false,
         ],

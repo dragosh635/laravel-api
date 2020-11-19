@@ -1,19 +1,21 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Models\User;
+use App\Models\Poll;
+use App\Models\Question;
+use App\Models\Answer;
 
-class DatabaseSeeder extends Seeder
-{
+class DatabaseSeeder extends Seeder {
     /**
-     * Run the database seeds.
+     * Create dummy date for the application
      *
      * @return void
      */
-    public function run()
-    {
-        factory(App\User::class, 5)->create();
-        factory(App\Poll::class, 10)->create();
-        factory(App\Question::class, 50)->create();
-        factory(App\Answer::class, 500)->create();
+    public function run() {
+        User::factory( 5 )->create();
+        Poll::factory( 10 )->create();
+        Question::factory( 50 )->create();
+        Answer::factory( 500 )->create();
     }
 }
