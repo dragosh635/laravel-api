@@ -9,4 +9,8 @@ Building RESTful APIs in Laravel
 - Use Passport in order to implement OAuth2
 - Use Behat to implement feature tests for the API
 
+## Further reading
+
+ **[Build APIs You Won't Hate](https://www.goodreads.com/book/show/18981361-build-apis-you-won-t-hate)**
+
 ## Laravel version 8.14.0
